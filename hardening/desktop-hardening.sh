@@ -30,7 +30,7 @@ sudo sh -c "cat > /etc/ansible/harden.yml <<EOF
   become: yes
 
   roles:
-    - Ubuntu1804-CIS
+    - ubuntu1804-desktop-cis
     
 EOF
 "
